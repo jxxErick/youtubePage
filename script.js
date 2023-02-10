@@ -1,7 +1,7 @@
 
 document.querySelector('header form button').addEventListener('click', function(event) {
     event.preventDefault();
-    alert('Search functionality coming soon!');
+    alert('Função ainda não implementada!');
   });
   
   document.querySelector('header a').addEventListener('click', function(event) {
