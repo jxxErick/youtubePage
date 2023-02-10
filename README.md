@@ -4,7 +4,7 @@ Tenho mais facilidade com a parte de back-end, assim como descrito no meu curric
 
 Mas, estou sempre disposto a aprender novas tecnlogias ou tentar me aperfeiçoar nelas, então, assim como proposto, tentei recriar a pagina inicial do youtube usando apenas html, css e javascript
 
-#Testando
+# Testando
 
 Criei uma pagina inicial bem simples, onde, ao clicar em entre agora, ou cadastre-se, abre-se formulários para a realização do mesmo, usando javascript para isso.
 As funções não implementadas como a de pesquisa, aparece um alerta dizendo que a função nao foi implementada ainda. 
