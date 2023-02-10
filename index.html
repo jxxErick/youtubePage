@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>YouTube</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="#"><img src="imgs/logo.png" alt="YouTube logo"> </a>
+    <form>
+      <input type="text" placeholder="Search">
+      <button>Buscar</button>
+    </form>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Em alta</a></li>
+        <li><a href="#">Incrições</a></li>
+        <li><a href="#">Biblioteca</a></li>
+      </ul>
+    </nav>
+    <button id="button">Entre agora</button>
+
+<form id="form" style="display: none;">
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="senha">Senha:</label>
+  <input type="password" id="senha" name="senha"><br><br>
+  <button type="submit">Enviar</button>
+</form>
+  </header>
+
+  <div id="modal">
+    <div class="modal-content">
+      <span id="closeBtn">&times;</span>
+      <form action="#">
+        <div class="form-group">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+        </div>
+        <div class="form-group">
+          <label for="password">Senha:</label>
+          <input type="password" id="password" name="password">
+        </div>
+        <div class="form-group">
+          <label for="birthdate">Data de nascimento:</label>
+          <input type="date" id="birthdate" name="birthdate">
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Join now">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <main>
+    <h1>Bem Vindo ao YouTube</h1>
+    <p>Entre agora para começar! </p>
+    <button onclick="document.getElementById('modal').style.display='block'">Cadastre-se</button>
+
+  </main>
+
+  <div class="video-container">
+    <div class="video-thumbnail">
+      <a href="https://www.youtube.com/watch?v=iYmEdqRV3cs&t=34s" target="_blank">
+      <img src="imgs/thumb.png" alt="Video Thumbnail">
+      <div class="video-info">
+        <div class="video-title">Admissão Digital</div>
+        <div class="video-duration">Duração: 1:31</div>
+        <div class="video-description">Contratação Otimizada!</div>
+      </div>
+    </a>
+    </div>
+  
+    <div class="video-thumbnail">
+      <a href="https://www.youtube.com/watch?v=9uwk5hbZIS0" target="_blank">
+        <img src="imgs/thumb.png" alt="Video Thumbnail">
+      <div class="video-info">
+        <div class="video-title">Intranet</div>
+        <div class="video-duration">Duração: 2:39</div>
+        <div class="video-description">Comunicação da sua empresa</div>
+      </div>
+    </a>
+    </div>
+
+    <div class="video-container">
+      <div class="video-thumbnail">
+        <a href="https://www.youtube.com/watch?v=ec62RcgfvmY" target="_blank">
+          <img src="imgs/thumb.png" alt="Video Thumbnail">
+        <div class="video-info">
+          <div class="video-title">Public Form</div>
+          <div class="video-duration">Duração: 2:57</div>
+          <div class="video-description">Simplifique Processos</div>
+        </div>
+      </a>
+      </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
